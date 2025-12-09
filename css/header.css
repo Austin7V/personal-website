@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0a192f;
+  align-items: center;
+  padding: 5px;
+}
+.header__title {
+  color: #e6f1ff;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.navbar {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+.navbar__link {
+  color: #e6f1ff;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ccd6f6;
+}
+.navbar__link:hover {
+  color: #64ffda;
+}

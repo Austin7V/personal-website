@@ -3,93 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Sergey Badin</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Hello, I'm Sergey</title>
   </head>
   <body>
-    <header>
-      <h1>Sergey Badin</h1>
-      <nav>|
-        <a class="m";href="#about">About Me</a> | 
-        <a class="m";href="#interests">Interests</a> |
-        <a class="m";href="#contact">Contact</a> |
-        <a class="m";href="#cv">CV</a> |
+    <header class="header">
+      <h1 class="header__title">Sergey Badin</h1>
+      <nav class="navbar">
+        <a class="navbar__link" href="#about-me">About</a>
+        <a class="navbar__link" href="#projects">Projects</a>
+        <a class="navbar__link" href="#profiles">Profiles</a>
+        <a class="navbar__link" href="#cv">CV</a>
+        <a class="navbar__link" href="#interests">Interests</a>
+        <a class="navbar__link" href="#contact">Contact</a>
       </nav>
     </header>
 
-    <section id="about">
-      <figure>
-        <img class="profilbild"; href="about";
-          src="https://media.licdn.com/dms/image/v2/D4E03AQGbmRudTRoIhg/profile-displayphoto-crop_800_800/B4EZq_ZaO3IUAI-/0/1764147701164?e=1766016000&v=beta&t=_Z7WyO6a6MKlmI3o8fBlQsY_5DHHnf4fsEZ-Yc5Uk6s"
-          width="200"
-          alt="Sergey Badin"
-        />
-        <figcaption>Sergey Badin</figcaption>
-        <p class="text_sergey">
-          Hello! I'm Sergey Badin, a web developer with a passion for creating
-          beautiful and functional websites. <br /><b
-            >I love coding and learning new technologies.</b
-          >
-        </p>
-      </figure>
-    </section>
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="foto">
+            <img
+              class="foto__sergey"
+              src="./img/7D8D2948-0B28-480F-9F09-1F8B0E675570.png"
+              alt="Sergey Badin"
+            />
+          </div>
 
-    <section id="interests">
-      <h2>Interests</h2>
-      <ul>
-        <li>
-          <strong>Interests A:</strong> I’m passionate about exploring new
-          technologies and developing my skills in software development,
-          especially in the no-code and AI space.
-        </li>
-        <li>
-          <strong>Interests B:</strong> I enjoy streaming and gaming, doing live
-          broadcasts, and just having a great time entertaining myself and
-          others.
-        </li>
-        <li>
-          <strong>Interests C:</strong> I love traveling, enjoying good food,
-          I’m interested in cars, and I’m always happy to discover something new
-          whenever I get the chance.
-        </li>
-      </ul>
-    </section>
+          <div class="text-block">
+            <h2 class="titel title__white">Hello, I'm Alex</h2>
+            <h2 class="titel title__gray">Full-Stack Developer &</h2>
+            <h2 class="titel title__gray">creative technologist.</h2>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        You can reach me at:<a href="mailto:sergey.badin03@gmail.com"
-          >My Email</a
-        >
-      </p>
-      <p>
-        <h4>Visit my pfofiles:</h4>
-        <a href="https://github.com/Austin7V">
-          <img
-            src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-            alt="GitHub Logo"
-            width="30"
-            height="30"/>
-            </a>
-        <a href="https://www.linkedin.com/in/sergey-badin-80719237a/">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
-            alt="GitHub Logo"
-            width="30"
-            height="30"/>
-            </a>
-      </p>
-    </section>
-    <section id="cv">
-        <h2>CV</h2>
-       <ul>
-        <li>Started studying software development in November 2025.</li>
-        <li>Created and managed a FiveM server for GTA V Roleplay, specifically a QBcore server, from 2021 to 2023.</li>
-        <li>Developed web pages and improved website design in 2022 and 2023.</li>
-        </ul>
-    </section>
-    <footer>
-      <p>© 2025 <b>Austin7V</b> All rights reserved.</p>
-    </footer>   
+            <p class="hero-text">
+              Building intuitive digital experiences and scalable solutions.
+            </p>
+
+            <button class="btn">view my work</button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
